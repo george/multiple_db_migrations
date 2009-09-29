@@ -1,2 +1,19 @@
 rake db:create:all
 
+(or to start from scratch: rake db:drop:all db:create:all)
+
+rake db:migrate
+
+Then look at db/development.sqlite3 and db/development_b.sqlite3
+
+Note: Migration metadata is stored in the "primary" database
+
+Note: schema.rb only shows the schema of the "primary" database
+
+Note: rake db:test:load may not work out of the box
+
+
+Also of possible interest:
+
+http://playtype.net/past/2008/3/27/multiple_databases_in_rails_without/
+
