@@ -1,0 +1,11 @@
+.DS_Store
+log/*.log
+vendor/plugins/**/**/*.log
+tmp/**/*
+tmp/*
+db/*.sqlite3
+coverage
+public/assets/**/*
+public/assets/*
+=
+coverage.data
